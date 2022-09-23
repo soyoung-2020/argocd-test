@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: argoproj/rollouts-demo:red
+        image: argoproj/rollouts-demo:green
         imagePullPolicy: Always
         ports:
         - name: web
